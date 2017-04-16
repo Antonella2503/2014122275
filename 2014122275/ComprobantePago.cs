@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2014122275
+{
+    public class ComprobantePago
+    {
+        private TipoComprobante _tipoComprobante;
+
+        public TipoComprobante TipoComprobante { get { return _tipoComprobante; } }
+    }
+}
